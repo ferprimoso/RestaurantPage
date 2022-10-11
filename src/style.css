@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Julee&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-color: #0F0F0F;
+    --red-color: #450000;
+}
+
+body {
+    font-family:'Inter', sans-serif;
+    background-color: var(--background-color);
+    color: white;
+}
+
+header {
+    font-family: 'Julee', cursive;
+    background-color: var(--red-color);
+    width: 85%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    padding-left: 12rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+button {
+    padding-right: 1rem;
+    border: none;
+    background: none;
+    color: white;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+/* main */
+main {
+    margin-left: 12rem;
+    display: flex;
+    flex-direction: space-between;
+    height: 32rem;
+}
+
+.hero-quote {
+    width: 40%;
+    margin-right: 2rem;
+}
+
+.hero-img {
+    background-image: url('sushibg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+

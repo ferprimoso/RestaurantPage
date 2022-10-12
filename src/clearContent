@@ -1,3 +1,7 @@
 export default function clearContent() {
-    document.querySelector('.content').childNodes[1].remove();
+    try {
+        document.querySelector('.content').childNodes[1].remove();
+    } catch(err) {
+        return;
+    }
 }
